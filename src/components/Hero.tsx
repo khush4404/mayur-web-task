@@ -2,7 +2,9 @@ import { Button } from "./ui/button";
 
 export function Hero() {
   return (
-    <section id="home" className="relative bg-slate-900 min-h-[700px] flex items-center">
+    <section id="home" className="relative bg-slate-900 min-h-[700px] flex items-center"
+      data-aos="zoom-in"
+    >
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-10"

@@ -54,17 +54,9 @@ export function Statistics() {
   return (
     <section
       id="statistics"
-      className="py-20 relative bg-cover bg-center bg-no-repeat z-10"
-      style={{
-        backgroundColor: '#f8f9fa',
-      }}
+      className="py-20 relative bg-gray-500 bg-center bg-no-repeat z-10"
+      data-aos="fade-up"
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-opacity-70 bg-cover" style={{
-        backgroundImage: `url('https://vui.unsplash.com/resize?height=256&quality=60&type=auto&url=https%3A%2F%2Fsearched-images.s3.us-west-2.amazonaws.com%2F5e55f276-9a58-4694-9ff5-c1d220a71176%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAQ4GRIA4QZE4I5HUY%252F20250919%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20250919T164100Z%26X-Amz-Expires%3D86400%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3D946854af7207ac3acb1f0a7f41b6496ab92551787cc8d248839578450ea30926&sign=hxJvYbVMPAUAuhShauNgZZWB6pa0m7_sq32jUWk5mR0')`
-      }}></div>
-
-      {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
