@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
 
 export function Testimonials() {
   const testimonials = [
